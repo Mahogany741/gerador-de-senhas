@@ -1,0 +1,88 @@
+body{
+    background: rgb(53,157,182);
+    background: radial-gradient(circle, rgba(53,157,182,1) 0%, rgba(0,23,136,1) 100%);
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#senha{
+    background-color: rgb(242, 242, 242);
+    width: 100%;
+    height: 30px;
+    /* resize: none; */
+    border-radius: 5px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+}
+
+label{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #767676;
+    margin: 5px;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box{
+    display: flex;
+    align-items: flex-start;
+    width: 450px;
+    height: 450px;
+    flex-direction: column;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+textarea{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(242, 242, 242);
+    resize: none;
+    border-radius: 5px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    /* outline: 0px; */
+}
+
+#btn-group{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+button{
+    margin-top: 25px;
+    align-self: center;
+    width: 100px;
+    height: 40px;
+    font-family: monospace;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-image: -webkit-linear-gradient(45deg,  rgba(53,157,182,1), rgba(0,23,136,1),  rgba(0,23,136,1));
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 5px;
+    
+}
